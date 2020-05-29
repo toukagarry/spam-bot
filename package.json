@@ -1,15 +1,27 @@
 {
-  "name": "spambot",
+  "name": "pokeassistant",
   "version": "1.0.0",
-  "description": "Discord spambot to level up profiles on other bots",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ajmeese7/spambot"
+  "description": "Another amazing Discord bot!",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
   },
-  "main": "app.js",
+  "main": "bot.js",
   "author": "Aaron Meese",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.2.1"
-  }
+  
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/pokeassistant"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
 }
