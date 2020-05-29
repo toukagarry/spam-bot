@@ -18,7 +18,7 @@ try {
       var maxMessages = 10000; // Change based on how many messages you want sent
       var timeToWait = null, minTime = 2000, maxTime = 4350;
       var content = null;
-      var prune = false;
+      var prune = true;
 
       // Get command line arguments
       var argLength = process.argv.length;
